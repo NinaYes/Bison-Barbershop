@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bison Barbershop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body class="body">
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="logo-no-background.png" alt="Logo" width="250" height="154" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#cut">Cut</a></li>
+              <li><a class="dropdown-item" href="#beard">Beard</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#other">Other services and combos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#schedule">Hours</a>
+          </li>
+        </ul>
+         <a class="btn1" href="tel:+16474093458"><button type="button" class="btn btn-secondary btn-lg">Book now: 647-409-34-58</button></a>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- SLIDES -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://burst.shopifycdn.com/photos/profile-of-man-at-the-barber.jpg?width=925&format=pjpg&exif=1&iptc=1" class="d-block w-100" alt="Barbershop pic1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://burst.shopifycdn.com/photos/man-gets-his-face-shaved-by-a-barber.jpg?width=925&format=pjpg&exif=1&iptc=1" class="d-block w-100" alt="Barbershop pic2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://burst.shopifycdn.com/photos/man-gets-his-hair-trimmed-at-the-barbershop.jpg?width=925&format=pjpg&exif=1&iptc=1" class="d-block w-100" alt="Barbershop pic3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- SERVICES -->
+
+<section id="services"> 
+<div class="container px-4 py-5" id="hanging-icons">
+  <h2 class="pb-2 border-bottom">Our Services</h2>
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-bg d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+      </div>
+      <div id="cut">
+        <h3 class="fs-2">Cut and Style-$50</h3>
+        <p>We'll wash your hair, cut it as you like then style it with one of our exclusive products. And then you can take a selfie and share it in Insta!</p>
+
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-bg d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+      </div>
+      <div>
+        <h3 class="fs-2">Cut and Beard-$70</h3>
+        <p>This combo comes with a haircut and a beard trim, that way we can take care of both in one shot. This service never dissappoints as we're doing it fast and easy yet professionally!</p>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-bg d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+      </div>
+      <div id="beard">
+        <h3 class="fs-2">Beard only-$35-$55</h3>
+        <p>Simple yet practical, we'll use high-grade clippers to both trim those stragglers and line it all up. For burlier beards, we’ll go beyond a trim by adding a straight razor line-up, a towel treatment then some beard oil to finish it off.</p>
+      </div>
+    </div>
+
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-bg d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+      </div>
+      <div id="other">
+        <h3 class="fs-2">Kids' Cut - $40</h3>
+        <p>Smaller fellas (who are 14-years-old or younger) get everything that comes with the Adult  Haircut Package but for a bit lower price</p>
+
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-bg d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
+      </div>
+      <div>
+        <h3 class="fs-2">The Job Done - $85</h3>
+        <p>Our most popular service, this combines a consult, a cut and a straight-razor shave for a kingly experience.</p>
+      </div>
+    </div>
+    <div class="col d-flex align-items-start">
+      <div class="icon-square text-bg d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
+      </div>
+      <div>
+        <h3 class="fs-2">Clean Shave - $45</h3>
+        <p>Using world-class straight razors and practiced precision, we'll leave your face looking boardroom-ready. Comes with hot and cool towels.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section> 
+
+<!-- TEAM -->
+
+<section id="team">
+  <div class="album py-5">
+    <div class="container">
+      <h2 class="pb-2 border-bottom">Our Awesome Barbers</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://images.pexels.com/photos/3998393/pexels-photo-3998393.jpeg?auto=compress&cs=tinysrgb&w=1600"class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+
+            <div class="card-body">
+              <p class="card-text">Johnny</p>
+              <p class="card-text">Johnny is a known Barber with 10 years of professional experience and the Founder of Bison Barbershop. He used to work in UK, Quatar and Canada mastering his skills and creating his unique styling technique.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book with Johnny</button>
+                </div>
+                <small class="text-muted">Monday-Saturday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1523532931495-f51ebf4bc3a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+            <div class="card-body">
+              <p class="card-text">Dave</p>
+              <p class="card-text">Dave is the Canada Barber Contest 2019 winner with 7 years of professional experience in multiple Toronto grooming clubs. We are so lucky to have him in our Team!</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book with Dave</button>
+                </div>
+                <small class="text-muted">Tuesday-Thursday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://images.unsplash.com/photo-1618523817954-d3197eec032b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" class="bd-placeholder-img card-img-top" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">
+            <div class="card-body">
+              <p class="card-text">Rebecca (Bex)</p>
+              <p class="card-text">Bex is our very own Beard-cut pro! She has over 5 years of professional experience working in Toronto, NY and Los Angeles. She specializes in the beard and mustache styling. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Book with Bex</button>
+                </div>
+                <small class="text-muted">Monday-Wednesday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="row mt-5 g-light p-5">
+    <div class="col-lg-4">
+      <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" width="180px" height="205px" class="bd-placeholder-img mx-auto d-block p-2"  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+  
+      <h2 class="fw-normal text-center">My harcut looks great!</h2>
+      <p class="text-center">Johnny has been taken care of my unique hairstyle for 5 years now. I can't recommend his services enough!</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img src="https://images.unsplash.com/photo-1595456415567-ee7a2d40ae8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" class="bd-placeholder-img mx-auto d-block p-2" width="185" height="205" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+  
+      <h2 class="fw-normal text-center">Huge thanks to Bex!</h2>
+      <p class="text-center">Bex is a wonderful stylist for my cut and beard! I honestly think that I have never looked better. If you come to Bison Barbershop you'll stay for long!</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img src="https://images.unsplash.com/photo-1579880651719-3cef00eae7de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" class="bd-placeholder-img mx-auto d-block p-2" width="185" height="205" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+  
+      <h2 class="fw-normal text-center">Just wow!</h2>
+      <p class="text-center">I have visited Bison Barbershop yesterday and had a haircut and beard styled by Dave. Now I am going to be a returning customer. </p>
+    </div><!-- /.col-lg-4 -->
+  </div>
+  </section>
+  <!-- CONTACT -->
+<section id="schedule">
+  <article class="blog-post p-5 ms-5">
+    
+    <h3>Our Hours</h3>
+    <p>Walk-ins are accepted if we have an availability. However, if you can, please book an appointment:</p>
+    <table class="table">
+      <thead class="table">
+        <tr>
+          <th>Name</th>
+          <th>Day of the week</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Johnny Schwartz</td>
+          <td>Monday-Saturday</td>
+          <td>10:00 am-5:00 pm</td>
+        </tr>
+        <tr>
+          <td>Dave Chirnamanputria</td>
+          <td>Tuesday-Thursday</td>
+          <td>10:00 am-5:00 pm</td>
+        </tr>
+        <tr>
+          <td>Bex Smitson</td>
+          <td>Monday-Wednesday</td>
+          <td>10:00 am-5:00 pm</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>All</td>
+          <td>Sunday</td>
+          <td>Day-off</td>
+        </tr>
+      </tfoot>
+    </table>
+  </article>
+</section>
+<section id="contacts">
+  <div class="container-fluid p-5 ms-5">
+    <h1 class="display-5 fw-bold ms-5">You can find us here:</h1>
+    <p class="col-md-8 fs-4 ms-5">1-11 Lilley Ave, Ajax, ON L1Z 1L2</p>
+    <p class="col-md-8 fs-4 ms-5">Tel: +1 647-409-34-58</p>
+    <iframe class="map p-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.043704221451!2d-78.99076118421843!3d43.8341917487255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4e05bd6099ded%3A0xc8a58d1774106b8a!2s1-11%20Lilley%20Ave%2C%20Ajax%2C%20ON%20L1Z%201L2!5e0!3m2!1sen!2sca!4v1668132949331!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <img class="logo" src="logo123.png">
+</section>
+  <!-- FOOTER -->
+  <div class=" footer d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top p-5">
+    <p>© 2022 Bison Barbershop. All rights reserved.</p>
+    <ul class="list-unstyled d-flex">
+      <li>
+        <a href="https://www.instagram.com/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grayColor" class="bi bi-instagram " viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://twitter.com/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grayColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg>
+        </a>
+      </li>
+
+      <li>
+          <a href="https://facebook.com/">
+          <svg width="16" height="16" fill="grayColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>   
+</body>
+</html>

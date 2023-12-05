@@ -1,0 +1,53 @@
+.nav-item {
+    font-size: 30px;
+}
+.navbar {
+    font-family: 'Stardos Stencil', cursive;
+}
+#hanging-icons {
+    font-family: 'Stardos Stencil', cursive;
+}
+.pb-2 {
+    font-size: 50px;
+}
+.album {
+    font-family: 'Stardos Stencil', cursive;
+}
+#testimonials {
+    font-family: 'Stardos Stencil', cursive;
+}
+
+.btn {
+    margin-right: 20px;
+    padding: 8px
+}
+.footer {
+    font-family: 'Stardos Stencil', cursive;
+}
+
+.bi {
+    margin-right: 7px;
+}
+.nmb2, .map2 {
+    font-family: 'Stardos Stencil', cursive;
+}
+.blog-post {
+    font-family: 'Stardos Stencil', cursive;
+    font-size: 20px;
+}
+
+.container-fluid {
+    font-family: 'Stardos Stencil', cursive;
+}
+
+.body {
+    background-color: #DDDDDD;
+}
+#contacts {
+    display:flex;
+    flex-direction: row;
+}
+.logo {
+    width: 60%;
+    height: 60%;
+}
